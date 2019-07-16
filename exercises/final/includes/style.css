@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+header,main,footer,nav,aside,article,section,div{
+    display:block;
+}
+#logoIcon {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat ;
+    
+}
+
+.testRef{
+    padding: 0 33%;
+}
+#yaniv{
+    height: 50px ;
+    width: 50px !important;
+}
+@media only screen and (max-width:699px){
+
+
+    nav{
+        height: 70px;
+        width: 100%;
+    }
+    nav .footerRow{
+        height: 70px;
+    }
+    #logoIcon{
+        height: 35px;
+        width: 107px;
+    }
+    .firstLine{
+        margin-top:30px
+    }
+    .secondLine , .thirdLine, .forthLine{
+
+        margin-top:60px;
+    }
+  
+    #fourthLine{
+        margin-top:60px;
+       
+    }
+    #formData{
+        margin-top:40px;
+    }
+}
+@media only screen and (min-width:700px){
+    nav{
+        height: 140px;
+        width: 100%;
+    }
+    body{
+        font-size:5rem;
+    }
+    #indexPage,  #formResult , #patientsList{
+        font-size: 2rem;
+    }
+    nav .footerRow{
+        height: 140px;
+    }
+    h1.h1{
+        font-size: 8rem;
+    }
+    #logoIcon{
+        height: 88px;
+        width: 268px;
+    }
+    .firstLine{
+    margin:100px 0;
+    }
+    .secondLine, .thirdLine ,.forthLine{
+        margin-bottom: 120px
+    }
+    #fourthLine{
+        position: relative;
+        top:100px;
+    }
+    .secondLine div a , .thirdLine div a,.forthLine div a{
+        font-size: 3rem;
+    }
+    .footerRow .col a img{
+        height: 56px;
+        width: 56px;
+    }
+    .navButton {
+        height: 36px;
+        width: 42px;
+    }
+    #formData{
+        margin-top:120px;
+    }
+    #navButton{
+        height: 3em;
+        width: 5em;
+    }
+    #navButton span i{
+      font-size: 2em;
+        
+    }
+  
+}
+#formResult #send{
+    width: 100%;
+}
+#formResult .h2{
+    font-size: 4rem;
+}
+#formResult #send{
+    font-size: 3rem;
+}
+#patientsList a{
+    text-decoration: none;
+}
+.secondLine a , .thirdLine  a , .forthLine a{
+    width:100%
+}
+nav{
+    background-color: #f8f9fa!important;
+}
+#phpResult{
+font-family: 'Alef',sans-serif;
+}

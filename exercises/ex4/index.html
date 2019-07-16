@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="includes/indexStyle.css">
+    <title>Ex4</title>
+
+</head>
+<body class="container">
+    <header class="row"></header>
+<form action="http://html5-book.co.il/teach/forms/get_form2.php " method="GET">
+    <div class="row">
+    <div class="col">
+    <div class="form-group">
+        <label>Name:
+            <input type="text" name="fullName" value="" pattern=".{2,}" placeholder="Israel Israeli" class="form-control" required>
+        </label>
+    </div>
+    <div class="form-group">
+        <label>Password:
+            <input type="password" name="pass" value=""pattern=".{6,}" maxlength="8" placeholder="Password" class="form-control" title="password must be 6-8 characters" required>
+        </label>
+    </div>
+    <div class="form-group">
+        <label>E-mail:
+            <input type="email" name="mail"  pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="please enter valid e-mail address" placeholder="user@example.com" class="form-control">
+        </label>
+    </div>
+    <div class="form-group">
+        <label>web-page:
+            <input type="url" pattern="^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$" name="website" class="form-control" >
+        </label>
+    </div>
+    </div>
+    <div class="col">
+
+    <div class="form-group">
+        <label>Phone:
+            <input type="tel" name="phone" class="form-control" pattern="[0-9]{9,10}"  maxlength="10" title="phone must be 9-10 numbers">
+        </label>
+    </div>
+    <div class="form-group">
+        <label>Coffee:
+            <input type="number" name="coffee" min="0"  required class="form-control">
+        </label>
+    </div>
+    <div class="form-group">
+        <label >Temperature:
+           <div id="flexx"><p>0</p> <input type="range" name="temper" class="form-control"> <p>100</p></div>
+        </label>
+    </div>
+    <div class="form-group">
+        <label>Address:
+            <textarea name="address" rows="2" pattern=".{5,}" required title="please enter your address" cols="20" class="form-control"></textarea>
+        </label>
+    </div>
+    </div>
+    <div class="col">
+    <fieldset  class="form-group">
+        <legend>Hobies:</legend>
+            <label>Dancing
+                <input type="checkbox" name="interests[]" class="form-control" value="Dancing">
+            </label>
+            <label>Crossfit
+                <input type="checkbox" name="interests[]" class="form-control" value="Crossfit">
+            </label>
+            <label>Kickboxing
+                <input type="checkbox" name="interests[]" class="form-control" value="Kickboxing">
+            </label>
+            <label>Karate
+                <input type="checkbox" name="interests[]" class="form-control" value="Karate">
+            </label>
+        
+    </fieldset>
+    <fieldset  class="form-group">
+        <legend>gender:</legend>
+        <label>Male
+            <input type="radio" class="form-control" name="gender"value="male" checked>
+        </label>
+        <label>Female
+            <input type="radio" class="form-control" name="gender" value="female">
+        </label>
+    </fieldset>
+    <div class="form-group">
+        <select  id="selectType" class="form-control" name="age"></select>        
+    </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+    <input type="submit" class="form-control">
+    </div>
+
+</form>
+</body>
+<script src="includes/code.js"></script>
+</html>

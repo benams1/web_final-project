@@ -1,0 +1,389 @@
+@font-face{
+    font-family: Amiko,sans-serif;
+    src:url("https://fonts.googleapis.com/css?family=Amiko" );
+}
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: Amiko,Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+}
+header,main,footer,nav,aside,article,section,div{
+    display:block;
+}
+
+header{
+    padding: 1px;
+    width:100%;
+    height:123px;
+    background-color: #E5E5E5;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 41px;
+    width: 100%;
+    background-color: #000000;
+}
+nav {
+    width: 300px;
+    height: 33px;
+    margin: 50px auto;
+    margin-top:52;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+nav ul{
+    position: relative 0;
+}
+nav ul li a{
+    color: #000000;
+    margin-right: 18px;
+}
+nav ul li a:hover{
+    color: #09e3f3;
+
+}
+#selected{
+    position: relative;
+    top:-14px;
+}
+#selected div{
+    
+    width: 14px;
+    height: 14px;
+    background: url(../images/ellipse.png) no-repeat center top;
+}
+/*layout1*/
+#layout1 div main{
+    position: relative;
+    top:0;
+    float: left;
+    width: 881px;
+    margin: 0 auto;
+}
+#layout1{
+    width: 100%;
+    height: 1024px;
+}
+#mixText h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 96px;
+    color: #000000;
+}
+#mixText h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#layout1 #wrapper{
+    width: 881px; /* according to design's width*/
+    margin: 0px auto;
+}
+#layout1 .rec{
+   background-color:  #EBEF18;
+   position: absolute;
+
+}
+
+#layout1 #wrapper section{
+    float: left;
+    width:50%;
+    position: relative;
+    top: 91px;
+}
+#layout1 #mix{
+    position: relative;
+    top: 0;
+} 
+#layout1 #wrapper #mixText{
+    top: 267px;
+}
+#layout1 #Rectangle4{
+    width: 75px;
+    height:23px ;
+    top: 44px;
+    left: 0px;
+}
+#layout1 #Rectangle5{
+    width: 136px;
+    height: 46px;
+    top: 75px;
+    left: 0px;
+}
+#layout1 #Rectangle6{
+    width: 134px;
+    height: 404px;
+    top: 132px;
+    left: 0px;
+}
+#layout1 #Rectangle10{
+    width: 88px;
+    height: 28px;
+    top: 547px;
+    left: 0px;
+}
+#layout1 #Rectangle11{
+    left: 0px;
+
+}
+#layout1 #Rectangle11-1{
+    left: 32px;
+}
+#layout1 #Rectangle2{
+    width: 246px;
+    height: 352px;
+    top: 44px;
+    left: 149px;
+}
+#layout1 #Rectangle7{
+    width: 123px;
+    height: 212px;
+    top: 412px;
+    left: 149px;
+}
+#layout1 #Rectangle8{
+    left: 286px;
+}
+#layout1 #Rectangle9{
+    width: 110px;
+    height: 58px;
+    top: 524px;
+    left: 286px;
+}
+#layout1 #Rectangle3-0{
+    top: 0px;
+    
+}
+#layout1 #Rectangle3-1{
+    top: 66px;
+}
+#layout1 #Rectangle3-2{
+    top: 132px;
+}
+#layout1 #Rectangle3-3{
+    height: 198px;
+    top: 198px;
+}
+#layout1 #Rectangle8-1{
+    left: 382px;
+}
+#layout1 .rec3{
+    width: 28px;
+    height: 55px;
+    left: 409px;
+
+}
+#layout1 .rec8{
+    width: 55px;
+    height: 105px;
+    top: 412px;
+}
+#layout1 .rec11{
+    top: 582px;
+    width: 25px;
+    height: 26px;
+}
+/*layout2*/
+#layout2 main{
+    max-height: 1860px;
+}
+#layout2 #wrapper{
+    float: left;
+    width: 969px;
+    position: relative;
+    top: 119px;
+    left: 151px;
+    margin:0 auto;
+}
+#layout2 #sideBar h1{
+    position: relative;
+    top: 1604px;
+    margin:0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 128px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    color: #000000;
+}
+#layout2 #sideBar{
+    position: relative;
+    top: 0;
+    float: right;
+    width: 169px;
+    height: 1925px;
+    background: #EBEF18;
+}
+#layout2 .rec{
+    display: block;
+    margin-top: 70px;
+    width: 457px;
+    height: 299px;
+    background: #C4C4C4;
+}
+#layout2 #leftSide{
+    float: left;
+}
+#layout2 #rightSide{
+    float:right;
+    position: relative;
+    top: 168px;
+}
+
+#layout2 #recA ,#layout2 #recB{
+    margin-top:0px;
+}
+#layout2 .box{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color:  #000000;
+    left:0;
+}
+#layout2 #box1{
+    top:119px;
+}
+#layout2 #box2{
+    top: 242px;
+    left: 89px;
+    background-color: #ffffff;
+}
+#layout2 #box3{
+    top:616px;
+}
+/*layout3*/
+
+#layout3 #Mmain{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+#layout3 .generBox{
+    margin-left: 64px;
+    margin-right: 64px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    text-align: center;
+    
+}
+#layout3 .box{
+    background: #000000;
+    color: #000000;
+}
+#layout3 .box1{
+    background: #000000;
+    color: #ffffff;
+}
+#layout3 .exposedBox{
+    background: #ff0000;
+    color: #ffffff;
+}
+@media (min-width:851px){
+#layout3 nav ul{
+    margin-left:10%;
+    position: relative;
+    top:123px;
+}
+#layout3 .mainArea{
+    min-height: 995px;
+}
+#layout3 nav{
+    margin:0;
+    float: left;
+    width:26%;
+    position: relative;
+    background: #E5E5E5;
+    
+}
+#layout3 header{
+    background: #F2E9E9;
+}
+#layout3 #Mmain{
+    float:left;
+    width:66.8%;
+    top:123px;
+    height: auto;
+}
+#layout3 aside{
+    float:left;
+    width:7.2%;
+    background: rgba(24, 239, 33, 0.3);
+}
+#layout3 #yellowBlock{
+    height:463px;
+    width:100%;
+    background: #EBEF18;
+}
+#layout3 .clear{
+    clear: both;
+}
+#layout3 #action{
+    position: absolute;
+    top: 21px;
+    right: 24px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+}
+/*mobile layout3*/
+
+
+
+@media (max-width:850px){
+    #layout3 header{
+        position: relative;
+        top:0;
+        height:123px;
+        width:100%;
+        margin:0;
+        background:  #F2E9E9;
+    }
+    #layout3 nav{
+
+        height:105px;
+        width:100%;
+        margin:0;
+        background: #E5E5E5;
+    }
+    #layout3 ul{
+        position: relative;
+        top: 45px;
+        left:35.52%;
+    }
+    #layout3 #action{
+        position: absolute;
+        top:21px;
+        right:26px;
+        width: 80px;
+        height: 80px;
+        background: #000000;
+    }
+    #layout3 #Mmain{
+        float:left;
+        width:66.8%;
+        top:80px;
+    }
+}
